@@ -1,13 +1,15 @@
 # Android: REST API
 
-Приложение получает данные по REST API; код разложен на слои api, data и domain.
+Учебное приложение на Kotlin: сеть, база данных и слои `api`, `data`, `domain`.
 
-**Стек:** Kotlin · Android Studio · Gradle
+**Стек:** Kotlin · Android Studio · Gradle · Retrofit · Room · Glide
 
 ## Что внутри
 
-- `app/` — приложение
-- `api/`, `data/`, `domain/` — сеть, данные, бизнес-логика
+- `app/` — экраны: персонажи, курсы, студенты, преподаватели, регистрация и вход
+- `api/` — Retrofit-клиент и DTO
+- `data/` — Room, DAO и реализации репозиториев
+- `domain/` — модели, интерфейсы репозиториев и use case
 
 ## Запуск
 
